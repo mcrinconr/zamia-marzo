@@ -1,0 +1,48 @@
+{
+  "name": "zamia",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Ecommerce website like amazon",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcrinconr/zamia-app.git"
+  },
+  "author": "maria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcrinconr/zamia-app/issues"
+  },
+  "homepage": "https://github.com/mcrinconr/zamia-app#readme",
+  "dependencies": {
+    "aws-sdk": "^2.839.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.6.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jquery": "^3.5.1",
+    "jquey": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.17",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "popper.js": "^1.16.1",
+    "react-editext": "^3.17.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.21.2",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  }
+}
